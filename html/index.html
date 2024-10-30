@@ -7,69 +7,30 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <!-- Navbar -->
+    
+    <section class="hero">
+        <div class="carousel">
+            <img src="/img/imagen_fondo_2.png" alt="Producto destacado">
+            <div class="carousel-content">
+                <h2>Nueva Colección</h2>
+                <p>Descubre nuestra última colección y luce lo mejor de la temporada.</p>
+                <button>Comprar Ahora</button>
+            </div>
+        </div>
+    </section>
     <header class="navbar">
-        <h1 class="logo">Tienda de Ropa</h1>
         <nav>
             <ul class="nav-links">
-                <li><a href="#productos">Productos</a></li>
-                <li><a href="#pedido">Pedido</a></li>
-                <li><a href="#chat">Chat</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="/html/hombre.html">Hombre</a></li>
+                <li><a href="/html/mujer.html">Mujer</a></li>
+                <li><a href="/html/niño.html">Niño</a></li>
+                <li><a href="/html/niña.html">Niña</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Sección de productos -->
-    <section id="productos" class="productos">
-        <h2>Nuestra Colección</h2>
-        <div class="producto-lista">
-            <div class="producto">
-                <img src="img/camisa.jpg" alt="Camisa">
-                <p>Camisa</p>
-                <p>$20.00</p>
-            </div>
-            <div class="producto">
-                <img src="img/pantalones.jpg" alt="Pantalones">
-                <p>Pantalones</p>
-                <p>$25.00</p>
-            </div>
-            <div class="producto">
-                <img src="img/zapatos.jpg" alt="Zapatos">
-                <p>Zapatos</p>
-                <p>$50.00</p>
-            </div>
-        </div>
-    </section>
+    
 
-    <!-- Formulario de pedido -->
-    <section id="pedido" class="pedido">
-        <h2>Hacer un Pedido</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="producto">Producto:</label>
-            <select id="producto" name="producto">
-                <option value="camisa">Camisa</option>
-                <option value="pantalones">Pantalones</option>
-                <option value="zapatos">Zapatos</option>
-            </select>
-            
-            <label for="cantidad">Cantidad:</label>
-            <input type="number" id="cantidad" name="cantidad" min="1" required>
-            
-            <button type="submit">Enviar Pedido</button>
-        </form>
-    </section>
-
-    <!-- Chat de soporte -->
-    <section id="chat" class="chat">
-        <h2>Chat de Soporte</h2>
-        <div class="chat-box">
-            <div class="mensaje">Hola, ¿en qué puedo ayudarte?</div>
-            <input type="text" placeholder="Escribe tu mensaje aquí...">
-        </div>
     </section>
 </body>
 </html>
